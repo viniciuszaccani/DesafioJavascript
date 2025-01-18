@@ -1,11 +1,13 @@
-let string = "inverter a string"
+//A variavel string é o valor que será invertido;
+let string = "Socorram-me, subi no ônibus em Marrocos -----"
 let invertido = ""
 
+//aqui o for percorre a string de trás para frente, pega o caractere atual e adiciona na variaval 'invertido';
 for (let i = (string.length - 1); i>=0; i--){
     invertido += string[i];
 }
 
-console.log(`resultado: \n${string} \n${invertido}`)
+console.log(`frase original: \n${string} \nResultado: \n${invertido}`)
 
 
 
